@@ -1,0 +1,156 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    }
+    .header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+    }
+    h1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h2 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: oblique;
+    padding: 0;
+    }
+    .container {
+font-family: Verdana, Geneva, Tahoma, sans-serif;    
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    }
+    .box {
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .box:nth-child(odd) {
+    background-color: #dabe8a;
+    }
+    .box1 {
+    width: 100%;
+    }
+    .box2 {
+    width: 70%;
+    transform: rotate(-8deg);
+    }
+    .box3 {
+    width: 40%;
+    transform: rotate(12deg);
+    }
+    .box4 {
+    width: 30%;
+    transform: rotate(-4deg);
+    }
+    .box5 {
+    transform: rotate(10deg);
+    }
+    .box6 {
+    transform: rotate(-6deg);
+    }
+    .box7 {
+    transform: rotate(14deg);
+    }
+    .shape {
+        position: absolute;
+        background-color: #32343b;
+        transform: rotate(45deg);
+        
+    }
+    .shape:hover {
+        background-color: #f00; /* color cambiado al pasar el ratón por encima */
+      }
+    .shape1 {
+        width: 20px;
+        height: 20px;
+        top: 50px;
+        left: 50px;
+    }
+    .shape2 {
+        width: 40px;
+        height: 40px;
+        top: 100px;
+        left: 100px;
+    }
+    .shape3 {
+        width: 60px;
+        height: 60px;
+        top: 150px;
+        left: 150px;
+    }
+    /* Estilo de los elementos geométricos */
+.shape {
+    position: absolute;
+    z-index: 0;
+    transform: rotate(45deg);
+    opacity: 0.8;
+  }
+  
+  .shape-small {
+    width: 100px;
+    height: 100px;
+    
+  }
+  
+  .shape-medium {
+    width: 70px;
+    height: 70px;
+    
+  }
+  
+  .shape-large {
+    width: 600px;;
+    height: 2000px;
+    
+  }
+  
+  /* Ajuste de las cajas de enlace */
+  .box {
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s ease;
+  }
+  
+  .box:hover {
+    background-color: #cccccc;
+  }
+  
+  /* Posiciones de los elementos geométricos */
+  .shape1 {
+    top: -30px;
+    left: 20px;
+  }
+  
+  .shape2 {
+    top: 110px;
+    left: -30px;
+  }
+  
+  .shape3 {
+    bottom: -30px;
+    right: 20px;
+  }
